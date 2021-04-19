@@ -1,0 +1,19 @@
+version: '3.7'
+
+services: 
+  database_desafio:
+    image: postgres
+    container_name: database_desafio_6
+    restart: always
+    ports: 
+      - 5432:5432
+    environment: 
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=queries_challenge_6
+    volumes: 
+      - pgdata:/database/postgres
+
+volumes: 
+  pgdata:
+    

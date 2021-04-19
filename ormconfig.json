@@ -6,7 +6,7 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "database": "fin_api",
+  "database": "queries_challenge_6",
   "entities": [
     "./src/modules/**/entities/*.ts"
   ],
