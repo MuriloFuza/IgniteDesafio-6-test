@@ -48,7 +48,7 @@ describe('Get Operation', () =>{
       user_id: user.id!,
       statement_id: statement.id!
     });
-    console.log(resultOperation);
+
     expect(resultOperation).toHaveProperty('id');
   });
 
